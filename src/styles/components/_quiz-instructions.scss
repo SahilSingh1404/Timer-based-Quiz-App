@@ -1,0 +1,49 @@
+.instructions {
+    border: 1px solid darken(#000, 10%);
+    border-radius:7.5px;
+    margin-top: $lg;
+    margin-bottom: $lg;
+    padding: 1rem 3rem 4rem 3rem;;
+
+    h1 {
+        color: $off-black;
+        font-size: $md;
+        text-align: center;
+    }
+
+    .lifeline {
+        position: relative;
+        top: -3px;
+    }
+
+    .lifeline-icon {
+        color: $green;
+        cursor: pointer;
+    }
+
+    .browser-default {
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    img {
+        width: 80%;
+        height: 50%;
+    }
+} 
+
+@media (max-width: $md-breakpoint) {
+    .instructions img {
+        width: 100% !important;
+        height: 150% !important;
+    }
+}
+
+body{
+    // background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    //background-color: #95a2e8;
+    //background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
